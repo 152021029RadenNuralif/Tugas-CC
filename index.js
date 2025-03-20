@@ -6,9 +6,9 @@ const fs = require('fs');
 const app = express();
 
 AWS.config.update({
-  accessKeyId: 'AKIARSU7K3BPNC2ALIX2', // Ganti dengan Access Key ID Anda
+  accessKeyId: 'AKIATBRPQQOWCIPZ645E', // Ganti dengan Access Key ID Anda
   secretAccessKey: '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', // Ganti dengan Secret Access Key Anda
-  region: 'ap-southeast-1' // Sesuaikan dengan region Anda
+  region: 'us-east-1c' // Sesuaikan dengan region Anda
 });
 
 const s3 = new AWS.S3();
